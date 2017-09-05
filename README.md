@@ -1,4 +1,4 @@
-RAPv0.14.1 Docker 自动化部署
+RAPv0.14.16 Docker 自动化部署
 -----------
 RAP是一个可视化接口管理工具 通过分析接口结构，动态生成模拟数据，校验真实接口正确性， 围绕接口定义，通过一系列自动化工具提升我们的协作效率。我们的口号：提高效率，回家吃晚饭！
 
@@ -10,16 +10,10 @@ RAP是一个可视化接口管理工具 通过分析接口结构，动态生成�
 
 2. clone工程
 ```
-git clone https://github.com/denonzhu/RAP.git
+git clone https://github.com/myfjdthink/RAP.git
 ```
 
-3. 进入build-web,执行命令
-
-```
-docker build -t rap-web .
-```
-
-4.进入根目录,执行命令
+3.进入根目录,执行命令
 ```
 docker-compose up -d
 ```
