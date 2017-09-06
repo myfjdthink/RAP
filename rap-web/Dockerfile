@@ -4,7 +4,7 @@ MAINTAINER nick <myfjdthink@163.com>
 
 ENV TOMCAT_HOME /opt/tomcat
 
-ADD http://rapapi.org/release/RAP-0.14.16-SNAPSHOT.war /opt/apache-tomcat-8.5.3/webapps/ROOT.zip
+ADD ./RAP-0.14.16-SNAPSHOT.war /opt/apache-tomcat-8.5.3/webapps/ROOT.zip
 #ADD ./RAP-0.14.1-SNAPSHOT.war /opt/apache-tomcat-8.5.3/webapps/ROOT.zip
 
 RUN mkdir ${TOMCAT_HOME}/webapps/ROOT \
